@@ -1,0 +1,77 @@
+.cartWrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.cartCard {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cartCard img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cartCard h5 {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333333;
+}
+
+.cartCard button {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.cartCard button:hover {
+    background-color: #ff8000;
+    transform: scale(1.05);
+}
+
+.checkoutBox {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.checkoutBox h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.checkoutBox button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.checkoutBox button:hover {
+    background-color: #ff8000;
+    transform: scale(1.05);
+}
+
